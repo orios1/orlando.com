@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(228, 228, 17);
+    margin: 0;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace, Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+.navbar {
+    background-color: skyblue;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 25px 20px 25px;
+    text-decoration: none;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+    background-color: rgb(112, 190, 238);
+    color: black;
+}
+
+.top-container {
+    background-color: skyblue;
+    position: relative;
+}
+
+.top-cloud {
+    position: relative;
+    left: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+.left-cloud {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+
+.right-cloud {
+    position: absolute;
+    top: 125px;
+    right: 300px;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 51px;
+    height: 51px;
+}
